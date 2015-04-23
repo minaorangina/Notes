@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Coding notes</h1>
+<ul>
+	<li><a href="#ternary">Ternary conditionals</a></li>
+
+</ul>
+<div id ="ternary">
+	<h3>Ternary conditionals</h3>
+	<p> Don't use this:</p>
+	<pre>var isArthur = false;<br>var weapon;<br>if(isArthur){<br>  weapon = Excalibur;<br>} else {<br>  weapon = Longsword;<br>}	
+	</pre>
+	<p> Use this instead:</p>
+	<p class="template">somecondition ? pickThisIfTrue : pickThisIfFalse;</p>
+	<pre>var isArthur = false;<br>var weapon;<br>isArthur ? weapon = "Excalibur" : weapon = "Longsword";
+</div>
+</body>
+</html>
