@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel'stylesheet' href='style.css'>
 </head>
 <body>
 	<h1>Markdown cheat sheet</h1>
-	<h2>Headers</h2>
+	<div id="github">
+		<h2>GitHub flavoured</h2>
+		<h3>Headers</h3>
 		<ul>
 			<li>h1 #</li>
 			<li>h2 ##</li>
@@ -13,10 +16,28 @@
 			<li>h5 #####</li>
 			<li>h6 ######</li>
 		</ul>
-	<h2>Emphasis</h2>
+		<h3>Emphasis</h3>
 			<ul>
 				<li> **here is some bold text** --> <strong>here is some bold text</strong><li>
-				<li> *here is some italicised text* --> <em>here is some italicised text</em>
+				<li> *here is some italicised text* --> <em>here is some italicised text</em></li>
 			</ul>
+	</div><!--end of github flavoured section-->
+	<div id="normal">
+		<h2>Normal markdown</h2>
+		<h3>Headers</h3>
+		<ul>
+			<li>h1</li>
+			<li class='nobullet'>==</li>
+			<li>h2</li>
+			<li class='nobullet'>--</li>
+		</ul>
+
+		<h3>Emphasis</h3>
+		<ul>
+			<li> **here is some bold text** --> <strong>here is some bold text</strong><li>
+			<li> *here is some italicised text* --> <em>here is some italicised text</em></li>
+		</ul>
+
+	</div><!--end of normal-->
 </body>
 </html>
