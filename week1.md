@@ -8,3 +8,5 @@
 `git checkout -b [name of new branch]`<br>
 OR<br>
 `git checkout --orphan [name of new branch]`<br>
+###SSH key
+https://help.github.com/articles/generating-ssh-keys/
