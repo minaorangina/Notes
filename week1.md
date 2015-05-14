@@ -5,9 +5,12 @@
 
 ##Git stuff
 ###Adding a new branch from the terminal<br>
-`git checkout -b [name of new branch]`<br>
-OR<br>
-`git checkout --orphan [name of new branch]`<br>
+`git checkout -b [name of new branch]`  
+OR  
+`git checkout --orphan [name of new branch]`  
+###Deleting a branch
+`git branch -d [name of branch]`
+
 ###SSH key
 https://help.github.com/articles/generating-ssh-keys/
 
