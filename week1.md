@@ -10,3 +10,8 @@ OR<br>
 `git checkout --orphan [name of new branch]`<br>
 ###SSH key
 https://help.github.com/articles/generating-ssh-keys/
+
+##Testing
+###Setting up a simple server
+[http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python]
+* localhost:8000/tests.html
