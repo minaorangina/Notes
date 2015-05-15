@@ -5,7 +5,7 @@
 
 ##Git stuff
 ###Adding a new branch from the terminal  
--b moves you onto the branch once you've created it
+-b moves you onto the branch once you've created it  
 `git checkout -b [name of new branch]`  
 OR  
 `git checkout --orphan [name of new branch]`  
