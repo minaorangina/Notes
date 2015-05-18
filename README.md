@@ -1,5 +1,5 @@
 # Notes
-a collection of coding notes
+a collection of coding notes  
 [FAC5 Playbook](http://fac5.foundersandcoders.org/)
 
 [Git cheatsheet](https://github.com/minaorangina/Notes/cheatsheet.md)<br>
